@@ -1,0 +1,88 @@
+/*
+Theme Name: elecom-rey
+Description: ...
+Version: 2.0
+Author: Rasool Safari
+Author URI: https://rasooll.com/
+*/
+
+@font-face {
+    font-family: "yekan";
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/yekan/yekan-regular.eot') format("embedded-opentype"),
+	url('fonts/yekan/yekan-regular.woff') format("woff"),
+	url('fonts/yekan/yekan-regular.ttf') format("truetype");
+}
+
+body{font-family: 'yekan' !important; background-color: rgba(221, 221, 221, 0.35);}
+h4 {margin: 0 !important; padding: 0 !important;}
+h3 {margin: 0 !important; padding: 0 !important;}
+a {color: #333;}
+a:hover {color: red;}
+table {border-collapse: collapse;}
+table, th, td {border: 1px solid #333; padding: 4px;}
+
+#sidebar ul {list-style-type: none; padding-right: 5px;}
+#sidebar li{background: #FFF; border-bottom:1px solid #e3e3e3; padding: 5px; transition: 200ms;}
+#sidebar li:hover{background: #f0f0f0;}
+#sidebar a:hover{text-decoration: none; color: #333;}
+
+#brand a {color: #9d9d9d;}
+#brand a:hover {text-decoration: none;}
+
+#res-menu-btn {float: right; padding-left: 7px;}
+#nav-fix-clear{height:54px;}
+#logo {height: 32px; width: auto; float: right; margin-left: 10px; margin-top: -6px;}
+#news {background: #FFFFFF; margin-top: 10px; border: 1px solid #e3e3e3; box-shadow: 0px 0px 5px #888888;}
+#news-title {margin: 8px; border-bottom: 1px solid #e3e3e3; padding-bottom: 10px;}
+#news-content {margin: 8px;}
+.news-date{color: #7a7777; font-size: 9pt;}
+.widget-icon {float: right; padding-left: 9px; font-size: 20px;}
+.post-icon {float: right; padding-left: 9px; font-size: 28px;}
+.justify {text-align: justify;}
+.aligncenter{text-align: center;}
+
+.block-area {background: #FFFFFF; margin-top: 10px; border: 1px solid #e3e3e3; padding: 8px; box-shadow: 0px 0px 5px #888888;}
+.block-title {border-bottom: 1px solid #e3e3e3; padding-bottom: 10px; margin-bottom: 5px; font-weight: bold;}
+
+.content-area {box-shadow: 0px 0px 5px #888888; width: 100%; background: #FFFFFF; margin-top: 10px; border: 1px solid #e3e3e3; display: inline-block; padding-bottom: 10px;}
+.content-title {margin: 8px; border-bottom: 1px solid #e3e3e3; padding-bottom: 10px;}
+.content-text {margin: 8px; text-align: justify; font-size: 15px;}
+.content-bottom {border-top: 1px solid #e3e3e3; padding-top: 10px; margin: 0 10px;}
+.icon-menu {margin-left: 3px;}
+.footericon {width: 24px;}
+
+#lastpost a:hover{text-decoration: none;}
+.last-post{border-bottom: 1px solid #e3e3e3; padding: 12px 3px;}
+.last-title{font-weight: bold;}
+.last-img{float: right; width: 150px; margin-left: 9px;}
+.last-readmore {font-size: 15pt; vertical-align: middle;}
+.gotoblog {text-align: center; font-weight: bold; margin-top: 5px;}
+
+.navigation{margin: 7px 0; font-weight: bold;}
+
+footer {background: #FFFFFF; padding: 12px 10px; margin: 12px 0px; border: 1px solid #e3e3e3; box-shadow: 0px 0px 5px #888888;}
+
+@media (max-width: 767px) { 
+	#footericon {text-align: center !important;}
+	#footext {text-align: center;}
+	.readmore {text-align: center;}
+	img {width: 100%;height: auto;display: block;}
+ }
+@media (min-width: 768px) and (max-width: 991px) { 
+	#footericon {text-align: center !important;}
+	#footext {text-align: center;}
+	.readmore {text-align: left;}
+	img {width: 100%; height: auto; display: block;}
+ }
+@media (min-width: 992px) and (max-width: 1199px) { 
+	#footericon {text-align: left;}
+	#footext {text-align: right;}
+	.readmore {text-align: left;}
+	}
+@media (min-width: 1200px) { 
+	#footericon {text-align: left;}
+	#footext {text-align: right;}
+	.readmore {text-align: left;}
+ }
