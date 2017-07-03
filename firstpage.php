@@ -17,7 +17,7 @@
 
 		<div class="alert alert-info alert-dismissible" role="alert">
   			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-  		<strong>Warning!</strong> Better check yourself, you're not looking too good.
+  		<i class="fa fa-telegram alert-telegram" aria-hidden="true"></i><a href="http://telegram.me/iausra" title="عضویت در کانال تلگرام"> اگر در کانال تلگرام ما عضو نیستید هم اکنون می‌توانید عضو شوید !!!</a>
 		</div>
 		
 		<?php while(have_posts()) : the_post();?> 
@@ -43,7 +43,7 @@
 				<div class="last-post">
 					<a href="<?php the_permalink();?>"><img class="last-img" src="<?php echo get_image() ?>" /></a>
 					<div class="last-title">
-						<a href="<?php the_permalink();?>"><?php the_title_attribute();?></a>
+						<a href="<?php the_permalink();?>"><?php the_title_attribute();?></a> - <span style="color: #999"><?php the_time('j F Y');?></span>
 					</div>
 					
 					<div class="last-text">

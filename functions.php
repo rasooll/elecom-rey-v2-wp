@@ -19,16 +19,6 @@ if ( function_exists('register_sidebar') )
   )
 );
 
-if ( function_exists('register_sidebar') )
-  register_sidebar(array(
-    'name' => 'اسلایدشو',
-    'before_widget' => '<div id="slideshow">',
-    'after_widget' => '</div>',
-    'before_title' => '<h4>',
-    'after_title' => '</h4>',
-  )
-);
-
 function get_image() {
   global $post, $posts;
   $first_img = '';
