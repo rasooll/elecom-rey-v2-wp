@@ -38,16 +38,16 @@
 					<div class="block-title"><i class="fa fa-chevron-left widget-icon" aria-hidden="true"></i><h4>
 						آخرین مطالب
 					</h4></div>
-<?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;     query_posts('showposts=' . 5 . '&paged=' . $paged . '&category_name=' . "training,technology,download,مقاله");?>
+<?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;     query_posts('showposts=' . 7 . '&paged=' . $paged . '&category_name=' . "training,technology,download,مقاله");?>
 					<?php while(have_posts()) : the_post();?> 
 				<div class="last-post">
-					<a href="<?php the_permalink();?>"><img class="last-img" src="<?php echo get_image() ?>" /></a>
+					<a href="<?php the_permalink();?>"><img class="last-img" width="150" height="150" src="<?php echo get_image() ?>" /></a>
 					<div class="last-title">
 						<a href="<?php the_permalink();?>"><?php the_title_attribute();?></a> - <span style="color: #999"><?php the_time('j F Y');?></span>
 					</div>
 					
 					<div class="last-text">
-						<?php the_content_rss('', TRUE, '', 60); ?><br />
+						<?php the_content_rss('', TRUE, '', 120); ?><br />
 						
 					</div>
 				</div>
@@ -64,7 +64,9 @@
 
 		<div class="hidden-lg hidden-md col-sm-12 col-xs-12"> <!-- Right Sidebar Responsive -->
 
+			<div id="sidebar">
 			<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('سایدبار سمت راست') ) : ?><?php endif; ?>
+			</div>
 
 		</div>
 

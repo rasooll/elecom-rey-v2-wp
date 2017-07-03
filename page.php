@@ -35,7 +35,9 @@
 
 		<div class="hidden-lg hidden-md col-sm-12 col-xs-12"> <!-- Right Sidebar Responsive -->
 
+			<div id="sidebar">
 			<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('سایدبار سمت راست') ) : ?><?php endif; ?>
+			</div>
 
 		</div>
 

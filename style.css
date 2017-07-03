@@ -22,6 +22,7 @@ a {color: #333;}
 a:hover {color: #d72d0b; text-decoration: none;}
 table {border-collapse: collapse;}
 table, th, td {border: 1px solid #333; padding: 4px;}
+.textarea textarea {border: 1px solid #e3e3e3;}
 
 #sidebar ul {list-style-type: none; padding-right: 5px;}
 #sidebar li{background: #FFF; border-bottom:1px solid #e3e3e3; padding: 5px; transition: 200ms;}
@@ -32,7 +33,7 @@ table, th, td {border: 1px solid #333; padding: 4px;}
 #brand a:hover {text-decoration: none;}
 
 #res-menu-btn {float: right; padding-left: 7px;}
-#nav-fix-clear{height:54px;}
+#nav-fix-clear{height:65px;}
 #logo {height: 32px; width: auto; float: right; margin-left: 10px; margin-top: -6px;}
 #news {background: #FFFFFF; border: 1px solid #e3e3e3; box-shadow: 0px 0px 5px #888888; margin-bottom: 8px;}
 #news-title {margin: 8px; border-bottom: 1px solid #d72d0b; padding-bottom: 10px;}
@@ -57,8 +58,9 @@ table, th, td {border: 1px solid #333; padding: 4px;}
 .tagss a {color: #999}
 
 #lastpost a:hover{text-decoration: none;}
-.last-post{border-bottom: 1px solid #e3e3e3; padding: 12px 3px;}
+.last-post{border-bottom: 1px solid #e3e3e3; padding: 12px 3px; display: inline-block !important;}
 .last-title{font-weight: bold;}
+.last-text{margin-top: 7px;}
 .last-img{float: right; width: 150px; margin-left: 9px;}
 .last-readmore {font-size: 15pt; vertical-align: middle;}
 .gotoblog {text-align: center; font-weight: bold; margin-top: 5px;}
@@ -91,11 +93,13 @@ footer {background: #FFFFFF; padding: 12px 10px; margin: 12px 0px; border: 1px s
 	#footericon {text-align: left;}
 	#footext {text-align: right;}
 	.readmore {text-align: left;}
+	#news {height: 274px;}
 	}
 @media (min-width: 1200px) { 
 	#footericon {text-align: left;}
 	#footext {text-align: right;}
 	.readmore {text-align: left;}
+	#news {height: 330px;}
  }
 #slideshow {box-shadow: 0px 0px 5px #888888;}
  .carousel-caption {
