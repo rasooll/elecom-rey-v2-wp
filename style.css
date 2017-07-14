@@ -16,6 +16,7 @@ Author URI: https://rasooll.com/
 }
 
 body{font-family: 'yekan' !important; background-color: rgba(221, 221, 221, 0.35);}
+img {max-width: 100%; height: auto;}
 h4 {margin: 0 !important; padding: 0 !important;}
 h3 {margin: 0 !important; padding: 0 !important;}
 a {color: #333;}
@@ -74,32 +75,40 @@ table, th, td {border: 1px solid #333; padding: 4px;}
 .alert-info a:hover {text-decoration: none;}
 
 footer {background: #FFFFFF; padding: 12px 10px; margin: 12px 0px; border: 1px solid #e3e3e3; box-shadow: 0px 0px 5px #888888;}
+#resimage{margin: -15px -3px;}
 
+.tagcloud {height: 150px; overflow: auto;}
+
+@media (max-width: 480px) {
+	#homelogo {width: 100%; height: auto;}
+ }
 @media (max-width: 767px) { 
 	#news {margin-top: 12px; }
-	#footericon {text-align: center !important;}
+	#footericon {display: none;}
 	#footext {text-align: center;}
 	.readmore {text-align: center;}
-	img {width: 100%;height: auto;display: block;}
+	img {max-width: 100%;height: auto;display: block;}
+	.item img {width: 100%; height: auto;}
  }
 @media (min-width: 768px) and (max-width: 991px) { 
 	#news {margin-top: 12px; }
-	#footericon {text-align: center !important;}
+	#footericon {display: none;}
 	#footext {text-align: center;}
 	.readmore {text-align: left;}
-	img {width: 100%; height: auto; display: block;}
+	img {max-width: 100%; height: auto; display: block;}
+	.item img {width: 100%; height: auto;}
  }
 @media (min-width: 992px) and (max-width: 1199px) { 
 	#footericon {text-align: left;}
 	#footext {text-align: right;}
 	.readmore {text-align: left;}
-	#news {height: 274px;}
+	#news {height: 274px; overflow: hidden;}
 	}
 @media (min-width: 1200px) { 
 	#footericon {text-align: left;}
 	#footext {text-align: right;}
 	.readmore {text-align: left;}
-	#news {height: 330px;}
+	#news {height: 330px; overflow: hidden;}
  }
 #slideshow {box-shadow: 0px 0px 5px #888888;}
  .carousel-caption {

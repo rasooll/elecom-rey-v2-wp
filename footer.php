@@ -1,14 +1,14 @@
-
 	<footer>
 		<div class="row">
 			<div class="col-lg-10 col-md-10">
 				<div id="footext">
-				کلیه حقوق برای انجمن مهندسی برق یادگار محفوظ می‌باشد.
+				<div>کلیه حقوق برای انجمن مهندسی برق یادگار محفوظ می‌باشد.</div>
+				<div>طراحی و کدنویسی توسط <a href="https://rasooll.com/?l=elecom" target="_blank">رسول صفری</a></div>
 				</div>
 			</div>
 			<div class="col-lg-2 col-md-2">
 				<div id="footericon">
-					<a href="mailto:safari@rasooll.com"><img title="ارتباط با طراح وب سایت" style="width: 24px;" src="https://rasooll.com/wp-content/uploads/2017/04/big-r-logo.png" /></a>
+					<img id="resimage" src="http://elecom-rey.ir/wp-content/uploads/2017/07/Responsive-icon.png" alt="Responsive" />
 				</div>
 			</div>
 		</div>

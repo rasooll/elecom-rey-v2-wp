@@ -4,7 +4,7 @@ if ( function_exists('register_sidebar') )
     'name' => 'سایدبار سمت راست',
     'before_widget' => '<div class ="block-area">',
     'after_widget' => '</div>',
-    'before_title' => '<div class="block-title"><h4>',
+    'before_title' => '<div class="block-title"><i class="fa fa-check widget-icon" aria-hidden="true"></i><h4>',
     'after_title' => '</h4></div>',
   )
 );

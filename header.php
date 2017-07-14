@@ -4,8 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<title><?php wp_title('|', true, 'right'); bloginfo('name'); ?></title>
+<title><?php wp_title('|', true, 'right'); ?></title>
 
 <!-- Bootstrap -->
 <link href="<?php bloginfo('template_url');?>/css/bootstrap.min.css" rel="stylesheet">
@@ -55,8 +54,8 @@ wp_head();
           </ul>
     </li>
     <li><a href="<?php bloginfo('url');?>/%d8%b9%d8%b6%d9%88%db%8c%d8%aa/"><i class="fa fa-user-plus icon-menu" aria-hidden="true"></i> عضویت </a></li>
-	<li><a href="<?php bloginfo('url');?>/%d8%af%d8%b1%d8%a8%d8%a7%d8%b1%d9%87%e2%80%8c%db%8c-%d9%85%d8%a7/"><i class="fa fa-envelope icon-menu" aria-hidden="true"></i> درباره ما </a></li>
-	<li><a href="<?php bloginfo('url');?>/%d8%aa%d9%85%d8%a7%d8%b3-%d8%a8%d8%a7%d9%85%d8%a7/"><i class="fa fa-address-card icon-menu" aria-hidden="true"></i> تماس با ما</a></li>
+	<li><a href="<?php bloginfo('url');?>/%d8%af%d8%b1%d8%a8%d8%a7%d8%b1%d9%87%e2%80%8c%db%8c-%d9%85%d8%a7/"><i class="fa fa-id-card icon-menu" aria-hidden="true"></i> درباره ما </a></li>
+	<li><a href="<?php bloginfo('url');?>/%d8%aa%d9%85%d8%a7%d8%b3-%d8%a8%d8%a7%d9%85%d8%a7/"><i class="fa fa-envelope icon-menu" aria-hidden="true"></i> تماس با ما</a></li>
 </ul>
 </div>
 
