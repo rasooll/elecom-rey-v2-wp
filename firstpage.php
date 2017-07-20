@@ -35,9 +35,21 @@
 
 			<!-- Bottom sidebar -->
 			<div id="lastpost" class ="block-area justify">
-					<div class="block-title"><i class="fa fa-chevron-left widget-icon" aria-hidden="true"></i><h4>
+					<!--<div class="block-title"><i class="fa fa-chevron-left widget-icon" aria-hidden="true"></i><h4>
 						آخرین مطالب
-					</h4></div>
+					</h4></div> -->
+<div class="last-post-tab">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">آخرین مطالب</a></li>
+    <li role="presentation"><a href="#project" aria-controls="project" role="tab" data-toggle="tab">پروژه ها</a></li>
+
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">
 <?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;     query_posts('showposts=' . 7 . '&paged=' . $paged . '&category_name=' . "training,technology,download,مقاله");?>
 					<?php while(have_posts()) : the_post();?> 
 				<div class="last-post">
@@ -55,6 +67,29 @@
 			<div class="gotoblog">
 				<i class="fa fa-plus icon-menu last-readmore" aria-hidden="true"></i> <a href="blog" >دیدن مطالب بیشتر</a>
 			</div>
+</div>
+    <div role="tabpanel" class="tab-pane" id="project">
+<?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;     query_posts('showposts=' . 7 . '&paged=' . $paged . '&category_name=' . "project");?>
+					<?php while(have_posts()) : the_post();?> 
+				<div class="last-post">
+					<a href="<?php the_permalink();?>"><img class="last-img" width="150" height="150" src="<?php echo get_image() ?>" /></a>
+					<div class="last-title">
+						<a href="<?php the_permalink();?>"><?php the_title_attribute();?></a> - <span style="color: #999"><?php the_time('j F Y');?></span>
+					</div>
+					
+					<div class="last-text">
+						<?php the_content_rss('', TRUE, '', 120); ?><br />
+						
+					</div>
+				</div>
+			<?php endwhile;?> <?php wp_reset_query(); ?>
+			<div class="gotoblog">
+				<i class="fa fa-plus icon-menu last-readmore" aria-hidden="true"></i> <a href="/category/project">دیدن پروژه های بیشتر</a>
+			</div>
+    </div>
+  </div>
+
+</div>
 			</div>
 
 

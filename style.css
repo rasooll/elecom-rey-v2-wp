@@ -89,6 +89,7 @@ footer {background: #FFFFFF; padding: 12px 10px; margin: 12px 0px; border: 1px s
 	.readmore {text-align: center;}
 	img {max-width: 100%;height: auto;display: block;}
 	.item img {width: 100%; height: auto;}
+	.icon-search {padding-left: 20px; padding-right: 8px;}
  }
 @media (min-width: 768px) and (max-width: 991px) { 
 	#news {margin-top: 12px; }
@@ -103,6 +104,7 @@ footer {background: #FFFFFF; padding: 12px 10px; margin: 12px 0px; border: 1px s
 	#footext {text-align: right;}
 	.readmore {text-align: left;}
 	#news {height: 274px; overflow: hidden;}
+	.search-witdh-desktop{-moz-padding-end: 39px;}
 	}
 @media (min-width: 1200px) { 
 	#footericon {text-align: left;}
@@ -129,3 +131,15 @@ footer {background: #FFFFFF; padding: 12px 10px; margin: 12px 0px; border: 1px s
 	right: 45% !important;
 }
 
+.last-post-tab>.nav-tabs {
+    border-bottom: 1px solid #d72d0b !important;
+}
+.last-post-tab>.nav-tabs>li{margin-left: 2px; margin-right: 2px; font-weight: bold;}
+.last-post-tab>.nav-tabs>li.active>a,.nav-tabs>li.active>a:hover,.nav-tabs>li.active>a:focus{
+	color:#555;
+	cursor:default;
+	background-color:#fff;
+	border:1px solid #d72d0b;
+	border-bottom-color:transparent
+}
+.last-post-tab>.nav-tabs>li>a:hover{background-color: #fff;}

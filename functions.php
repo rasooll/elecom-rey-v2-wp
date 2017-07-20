@@ -49,5 +49,4 @@ if ( ! function_exists( 'rokesh_pagination' ) ) :
   }
 endif;
 
-
 ?>
