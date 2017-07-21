@@ -23,8 +23,8 @@
 		<?php while(have_posts()) : the_post();?> 
 		
 			<div class="content-area">
-				<div class="content-title"><i class="fa fa-edit post-icon" aria-hidden="true"></i><h3>  
-				<a href="<?php the_permalink();?>"><?php the_title_attribute();?></a> </h3></div>
+				<!-- <div class="content-title"><i class="fa fa-edit post-icon" aria-hidden="true"></i><h3>  
+				<a href="<?php the_permalink();?>"><?php the_title_attribute();?></a> </h3></div> -->
 				<div class="content-text">
 					<?php the_content(); ?>
 				</div>
