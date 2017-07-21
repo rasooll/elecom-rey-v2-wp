@@ -54,6 +54,7 @@ wp_head();
           </ul>
     </li>
     <li><a href="<?php bloginfo('url');?>/%d8%b9%d8%b6%d9%88%db%8c%d8%aa/"><i class="fa fa-user-plus icon-menu" aria-hidden="true"></i> عضویت </a></li>
+    <li><a href="<?php bloginfo('url');?>/telegram" title="آدرس کامال‌ها و گروه‌های درسی"><i class="fa fa-telegram icon-menu" aria-hidden="true"></i> تلگرام </a></li>
 	<li><a href="<?php bloginfo('url');?>/%d8%af%d8%b1%d8%a8%d8%a7%d8%b1%d9%87%e2%80%8c%db%8c-%d9%85%d8%a7/"><i class="fa fa-id-card icon-menu" aria-hidden="true"></i> درباره ما </a></li>
 	<li><a href="<?php bloginfo('url');?>/%d8%aa%d9%85%d8%a7%d8%b3-%d8%a8%d8%a7%d9%85%d8%a7/"><i class="fa fa-envelope icon-menu" aria-hidden="true"></i> تماس با ما</a></li>
 </ul>
