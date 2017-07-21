@@ -32,6 +32,23 @@
 						</a>
 					<?php endif; ?>
 				</div>
+				<div class="share-row">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6">اشتراک گزاری در 
+						<a href="https://t.me/share/url?url=<?php echo wp_get_shortlink(); ?>" target="_blank" title="تلگرام">
+						<i class="fa fa-telegram shareicon" aria-hidden="true"></i></a>
+						<a href="whatsapp://send?text=<?php the_title_attribute();?>: <?php echo wp_get_shortlink(); ?>" data-action="share/whatsapp/share" target="_blank" title="واتس اپ">
+						<i class="fa fa-whatsapp shareicon" aria-hidden="true"></i></a>
+						<a href="https://twitter.com/intent/tweet?text=<?php the_title_attribute();?>&url=<?php echo wp_get_shortlink(); ?>" target="_blank" title="توئیتر">
+						<i class="fa fa-twitter shareicon" aria-hidden="true"></i></a>
+						<a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo wp_get_shortlink();?>" target="_blank" title="فیسبوک">
+						<i class="fa fa-facebook shareicon" aria-hidden="true"></i></a>
+						<a href="https://plus.google.com/share?url=<?php echo wp_get_shortlink();?>" target="_blank" title="گوگل پلاس">
+						<i class="fa fa-google-plus-official shareicon" aria-hidden="true"></i></a>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6"><p style="float: left;"><code title="لینک کوتاه مطلب"><?php echo wp_get_shortlink(); ?></code></p></div>
+					</div>
+				</div>
 				<div class="content-bottom">
 					<div class="row ">
 						<div class="col-lg-4 col-md-5 col-sm-4 col-xs-8"><i class="fa fa-user icon-menu" aria-hidden="true"></i> نویسنده:  <?php the_author();?></div>
