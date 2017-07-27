@@ -9,7 +9,6 @@
 			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
 			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
 			    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-			    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
 			  </ol>
 
 			  <!-- Wrapper for slides -->
@@ -38,13 +37,6 @@
 
 					<div class="item">
 			    		<img src="<?php bloginfo('template_url');?>/slides/slide3.jpg" alt="...">
-			    		<div class="carousel-caption">
-			        		بازدید از نیروگاه برق بعثت
-			      	  	</div>
-			    	</div>
-
-			    	<div class="item">
-			    		<img src="<?php bloginfo('template_url');?>/slides/slide2.jpg" alt="...">
 			    		<div class="carousel-caption">
 			        		بازدید از نیروگاه برق بعثت
 			      	  	</div>
