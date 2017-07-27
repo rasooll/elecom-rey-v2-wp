@@ -53,7 +53,7 @@ wp_head();
             <li><a href="<?php bloginfo('url');?>/category/news/%d8%a7%d8%ae%d8%a8%d8%a7%d8%b1-%da%af%d8%b1%d9%88%d9%87-%d8%a8%d8%b1%d9%82/">اخبار گروه برق</a></li>
           </ul>
     </li>
-	<li><a href="<?php bloginfo('url');?>/#"><i class="fa fa-photo icon-menu" aria-hidden="true"></i> گالری تصاویر </a></li>
+	<li><a href="<?php bloginfo('url');?>/photo-gallery"><i class="fa fa-photo icon-menu" aria-hidden="true"></i> گالری تصاویر </a></li>
     <li><a href="<?php bloginfo('url');?>/telegram" title="آدرس کانال‌ها و گروه‌های درسی"><i class="fa fa-telegram icon-menu" aria-hidden="true"></i> تلگرام </a></li>
     <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-university icon-menu" aria-hidden="true"></i> انجمن علمی <span class="caret"></span></a>
           <ul class="dropdown-menu">
