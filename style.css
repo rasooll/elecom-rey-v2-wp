@@ -60,6 +60,10 @@ table, th, td {border: 1px solid #333; padding: 4px;}
 .tags {margin-top: 9px; border-top: 1px solid #e3e3e4; padding-top: 6px;}
 .tagss a {color: #999}
 
+.eng-img{width: 100%; height: auto; padding-top: 5px;}
+.eng-title{padding-bottom: 5px; text-align: center;font-size: 0.89em;}
+.eng-more{float: left;}
+
 #lastpost a:hover{text-decoration: none;}
 .last-post{border-bottom: 1px solid #e3e3e3; padding: 12px 3px; display: inline-block !important;}
 .last-title{font-weight: bold;}
