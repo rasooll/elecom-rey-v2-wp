@@ -34,7 +34,7 @@
 		 <?php endwhile;?> 
             
             <div class="content-area">
-                <div class="content-title"><span class="eng-more"><a href="<?php bloginfo('url');?>/category/pro-english" alt="ادامه قسمت ها" ><i class="fa fa-plus post-icon" aria-hidden="true"></i>ادامه قسمت ها</a></span><i class="fa fa-chevron-left post-icon" aria-hidden="true"></i><h3>  
+                <div class="content-title"><span class="eng-more"><a href="<?php bloginfo('url');?>/category/pro-english" alt="ادامه قسمت ها" ><i class="fa fa-plus post-icon" aria-hidden="true"></i>ادامه قسمت ها</a></span><i class="fa fa-language post-icon" aria-hidden="true"></i><h3>  
 				زبان تخصصی </h3></div>
 				<div class="content-text">
                     <div class="row">
