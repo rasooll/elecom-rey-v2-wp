@@ -1,39 +1,92 @@
 <div id='slideshow1'>
 <div class="owl-carousel owl-theme">
     <!-- Start Slide's -->
-    
     <!-- Slide 1 -->
-    <div>
-        <img src="<?php bloginfo('template_url');?>/slides/slide4.jpg" alt="...">
-        <div class="owl-caption">
-            برگزاری کلاس آموزش میکرو کنترلر AVR
+    <?php if (get_option("slide1")==1 && get_option("slide1_link")!=NULL) {?>
+        <div>
+            <img src="<?php echo get_option("slide1_link"); ?>" alt="<?php echo get_option("slide1_dec"); ?>">
+            <div class="owl-caption">
+                <?php echo get_option("slide1_dec"); ?>
+            </div>
         </div>
-    </div>
+    <?php } ?>
     
     <!-- Slide 2 -->
-    <div>
-        <img src="<?php bloginfo('template_url');?>/slides/slide6.jpg" alt="...">
-        <div class="owl-caption">
-           بررسی مراحل ساخت ایده هاو تحلیل بخشهای مورد نیاز قطعه پیشنهادی
+    <?php if (get_option("slide2")==1 && get_option("slide2_link")!=NULL) {?>
+        <div>
+            <img src="<?php echo get_option("slide2_link"); ?>" alt="<?php echo get_option("slide2_dec"); ?>">
+            <div class="owl-caption">
+                <?php echo get_option("slide2_dec"); ?>
+            </div>
         </div>
-    </div>
+    <?php } ?>
     
     <!-- Slide 3 -->
-    <div>
-        <img src="<?php bloginfo('template_url');?>/slides/slide7.jpg" alt="...">
-        <div class="owl-caption">
-           برگزاری کلاس آموزش متلب MATLAB
+    <?php if (get_option("slide3")==1 && get_option("slide3_link")!=NULL) {?>
+        <div>
+            <img src="<?php echo get_option("slide3_link"); ?>" alt="<?php echo get_option("slide3_dec"); ?>">
+            <div class="owl-caption">
+                <?php echo get_option("slide3_dec"); ?>
+            </div>
         </div>
-    </div>
+    <?php } ?>
     
-    <!-- Silde 4 -->
-    <div>
-        <img src="<?php bloginfo('template_url');?>/slides/slide3.jpg" alt="...">
-        <div class="owl-caption">
-            بازدید از نیروگاه برق بعثت
+    <!-- Slide 4 -->
+    <?php if (get_option("slide4")==1 && get_option("slide4_link")!=NULL) {?>
+        <div>
+            <img src="<?php echo get_option("slide4_link"); ?>" alt="<?php echo get_option("slide4_dec"); ?>">
+            <div class="owl-caption">
+                <?php echo get_option("slide4_dec"); ?>
+            </div>
         </div>
-    </div>
+    <?php } ?>
+    
+    <!-- Slide 5 -->
+    <?php if (get_option("slide5")==1 && get_option("slide5_link")!=NULL) {?>
+        <div>
+            <img src="<?php echo get_option("slide5_link"); ?>" alt="<?php echo get_option("slide5_dec"); ?>">
+            <div class="owl-caption">
+                <?php echo get_option("slide5_dec"); ?>
+            </div>
+        </div>
+    <?php } ?>
+    
+    <!-- Slide 6 -->
+    <?php if (get_option("slide6")==1 && get_option("slide6_link")!=NULL) {?>
+        <div>
+            <img src="<?php echo get_option("slide6_link"); ?>" alt="<?php echo get_option("slide6_dec"); ?>">
+            <div class="owl-caption">
+                <?php echo get_option("slide6_dec"); ?>
+            </div>
+        </div>
+    <?php } ?>
+    
+    <!-- Slide 7 -->
+    <?php if (get_option("slide7")==1 && get_option("slide7_link")!=NULL) {?>
+        <div>
+            <img src="<?php echo get_option("slide7_link"); ?>" alt="<?php echo get_option("slide7_dec"); ?>">
+            <div class="owl-caption">
+                <?php echo get_option("slide7_dec"); ?>
+            </div>
+        </div>
+    <?php } ?>
+    
+    <!-- Slide 8 -->
+    <?php if (get_option("slide8")==1 && get_option("slide8_link")!=NULL) {?>
+        <div>
+            <img src="<?php echo get_option("slide8_link"); ?>" alt="<?php echo get_option("slide8_dec"); ?>">
+            <div class="owl-caption">
+                <?php echo get_option("slide8_dec"); ?>
+            </div>
+        </div>
+    <?php } ?>
     
     <!-- End Slide's -->
+    <!-- If Slide's empty -->
+    <?php if (get_option("slide1")!=1 && get_option("slide2")!=1 && get_option("slide3")!=1 && get_option("slide4")!=1 && get_option("slide5")!=1 && get_option("slide6")!=1 && get_option("slide7")!=1 && get_option("slide8")!=1)  {?>
+        <div>
+            <h3>لطفا از بخش "تنظیمات اسلایدشو" واقع در مدیریت سایت تصاویر را اضافه کنید</h3>
+        </div>
+    <?php } ?>
 </div>
 </div>
