@@ -13,6 +13,10 @@
 <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/font-awesome.min.css">
 <!-- MyCSS -->
 <link href="<?php bloginfo('template_url');?>/style.css" rel="stylesheet">
+<!-- owl carousel -->
+<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/owl.carousel.css">
+<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/owl.theme.green.css">
+    
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <?php
 remove_action('wp_head', 'wp_generator');
