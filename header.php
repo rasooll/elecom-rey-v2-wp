@@ -15,7 +15,11 @@
 <link href="<?php bloginfo('template_url');?>/style.css" rel="stylesheet">
 <!-- owl carousel -->
 <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/owl.carousel.css">
-<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/owl.theme.green.css">
+<?php
+    if(get_option("carouselcolor") == NULL) { $carouselcolor = "default"; }
+    else{ $carouselcolor = get_option("carouselcolor"); }
+?>
+<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/owl.theme.<?php echo $carouselcolor; ?>.css">
     
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <?php
