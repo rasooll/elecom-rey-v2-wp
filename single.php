@@ -59,7 +59,7 @@
 						</div>
 					</div>
 					<div class="tags">
-					<i class="fa fa-tags icon-menu" aria-hidden="true"></i> برچسب‌ها: <span class="tagss"><?php the_tags( '', '# ', ''); ?></span>
+					<i class="fa fa-tags icon-menu" aria-hidden="true"></i> برچسب‌ها: <span class="tagss"><?php the_tags( '', '', ''); ?></span>
 					</div>
 				</div>
 

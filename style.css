@@ -62,7 +62,8 @@ table, th, td {border: 1px solid #333; padding: 4px;}
 .icon-menu {margin-left: 3px;}
 .footericon {width: 24px;}
 .tags {margin-top: 9px; border-top: 1px solid #e3e3e4; padding-top: 6px;}
-.tagss a {color: #999}
+.tagss a {background-color: #f0f0f0; border: 1px dashed #CECECE; border-radius: 6px; padding: 3px; margin: 5px; display: inline-block; transition: 300ms;}
+.tagss a:hover{border: 1px dashed #d72d0b; transition: 300ms;}
 
 .eng-img{width: 100%; height: auto; padding-top: 5px;}
 .eng-title{padding-bottom: 5px; text-align: center;font-size: 0.89em;}
