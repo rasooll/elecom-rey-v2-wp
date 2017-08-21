@@ -26,6 +26,10 @@ a:hover {color: #d72d0b; text-decoration: none;}
 table {border-collapse: collapse;}
 table, th, td {border: 1px solid #333; padding: 4px;}
 .textarea textarea {border: 1px solid #e3e3e3;}
+.margin-top-10 {margin-top: 10px;}
+.bold {font-weight: bold;}
+.float-right {float: right;}
+.float-left {float: left;}
 
 #sidebar ul {list-style-type: none; padding-right: 5px;}
 #sidebar li{background: #FFF; border-bottom:1px solid #e3e3e3; padding: 5px; transition: 200ms;}
@@ -154,6 +158,25 @@ footer {background: #FFFFFF; padding: 12px 10px; margin: 12px 0px; border: 1px s
 .share-row a:hover>.fa-google-plus-official {color: #dd4b39;}
 
 .tg-link>a>button{margin: 5px;}
+
+.commentlist{
+    padding-right: 0 !important;
+}
+.comment-heaer {
+    background-color: #DBD7D7;
+    display: block;
+}
+.commentlist li{
+    background-color: #f0f0f0;
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+.commentlist .avatar-56 {
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-bottom: 8px;
+}
 
 
 

@@ -65,7 +65,16 @@
 
 			</div>
 
-		 <?php endwhile;?> 
+		 <?php endwhile;?>
+
+            <!-- Comment are -->
+            <div class="comment-section">
+                <?php if(is_singular() && !is_page()) { ?>
+                    <div class="clearfix"></div>
+                    <?php
+                    if ( is_single() && ! post_password_required() && ( comments_open() || '۰' != get_comments_number() )) comments_template();
+                }?>
+            </div>
 
 			<!-- Bottom sidebar -->
 			<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('سایدبار پایین') ) : ?><?php endif; ?>

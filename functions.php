@@ -49,5 +49,6 @@ if ( ! function_exists( 'rokesh_pagination' ) ) :
   }
 endif;
 
+
 require_once(TEMPLATEPATH . '/options_owl_carousel.php');
 ?>
