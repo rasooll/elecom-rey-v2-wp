@@ -33,23 +33,52 @@
 
 		 <?php endwhile;?> 
             
-            <div class="content-area">
-                <div class="content-title"><span class="eng-more"><a href="<?php bloginfo('url');?>/category/pro-english" alt="ادامه قسمت ها" ><i class="fa fa-plus post-icon" aria-hidden="true"></i>ادامه قسمت ها</a></span><i class="fa fa-language post-icon" aria-hidden="true"></i><h3>  
-				زبان تخصصی </h3></div>
-				<div class="content-text">
-                    <div class="row">
-                    <?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;     query_posts('showposts=' . 4 . '&paged=' . $paged . '&category_name=' . "pro-english");?>
-					<?php while(have_posts()) : the_post();?> 
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-					<a href="<?php the_permalink();?>"><img class="eng-img" src="<?php echo get_image() ?>" /></a>
-					<div class="eng-title">
-						<a href="<?php the_permalink();?>"><?php the_title_attribute();?></a>
+			<div class="row"><!-- Start two block -->
+
+				<!-- زبان تخصصی \-->
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<div class="content-area">
+						<div class="content-title"><span class="eng-more"><a href="<?php bloginfo('url');?>/category/pro-english" alt="ادامه قسمت ها" ><i class="fa fa-plus post-icon" aria-hidden="true"></i>ادامه قسمت ها</a></span><i class="fa fa-language post-icon" aria-hidden="true"></i><h3>  
+						زبان تخصصی </h3></div>
+						<div class="content-text">
+							<div class="row">
+							<?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;     query_posts('showposts=' . 4 . '&paged=' . $paged . '&category_name=' . "pro-english");?>
+							<?php while(have_posts()) : the_post();?> 
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<a href="<?php the_permalink();?>"><img class="eng-img" src="<?php echo get_image() ?>" /></a>
+							<div class="eng-title">
+								<a href="<?php the_permalink();?>"><?php the_title_attribute();?></a>
+							</div>
+						</div>
+							<?php endwhile;?> <?php wp_reset_query(); ?>
+							</div>
+						</div>
 					</div>
 				</div>
-			<?php endwhile;?> <?php wp_reset_query(); ?>
-                    </div>
-                </div>
-			</div>
+				<!--/ زبان تخصصی -->
+				
+				<!-- شناخت قطعات \-->
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<div class="content-area">
+						<div class="content-title"><span class="eng-more"><a href="<?php bloginfo('url');?>/category/understanding-components" alt="ادامه قسمت ها" ><i class="fa fa-plus post-icon" aria-hidden="true"></i>ادامه قسمت ها</a></span><i class="fa fa-space-shuttle post-icon rotate-230" aria-hidden="true"></i><h3>  
+						شناخت قطعات </h3></div>
+						<div class="content-text">
+							<div class="row">
+							<?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;     query_posts('showposts=' . 4 . '&paged=' . $paged . '&category_name=' . "understanding-components");?>
+							<?php while(have_posts()) : the_post();?> 
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<a href="<?php the_permalink();?>"><img class="eng-img" src="<?php echo get_image() ?>" /></a>
+							<div class="eng-title">
+								<a href="<?php the_permalink();?>"><?php the_title_attribute();?></a>
+							</div>
+						</div>
+							<?php endwhile;?> <?php wp_reset_query(); ?>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--/ شناخت قطعات -->
+			</div><!-- End two block -->
 
 			<!-- Bottom sidebar -->
 			<div id="lastpost" class ="block-area justify">
