@@ -17,7 +17,7 @@ Author URI: https://rasooll.com/
     src:url(fonts/Vazir-Bold.woff)
 }
 
-body{font-family: Vazir !important;font-size: 10pt; background-color: rgba(221, 221, 221, 0.35);}
+body{font-family: Vazir !important;font-size: 10pt; background-color: rgba(221, 221, 221, 0.35);line-height: 1.6;}
 img {max-width: 100%; height: auto;}
 h4 {margin: 0 !important; padding: 0 !important; font-size: 13pt;}
 h3 {margin: 0 !important; padding: 0 !important; font-size: 14pt;}
